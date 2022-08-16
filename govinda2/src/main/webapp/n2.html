@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<title>
+    STUDENT REGISTRATION FORM 
+</title>
+
+<style>
+td{
+padding:15px;
+
+}
+</style>
+
+<body style="background-color: rgba(165, 159, 159, 0.699);">
+<h1>STUDENT REGISTRATION FORM</h1>
+Fill out the form carefully for the registration
+<br>
+<br>
+<br>
+<table>
+<form action="actionn" method = "get">
+    <label for="fname"><b>Student Name</b></label><br>
+    <table>
+        <tr>
+            <td><input type="text" id="fname" name="fname"></td>
+            <td><input type="text" id="mname" name="mname"></td>
+            <td><input type="text" id="lname" name="lname"></td>
+        </tr>
+        <tr>
+            <td><label>frist name</label></td>
+            <td><label>mid name</label></td>
+            <td><label>last name</label></td>
+        
+        </tr>
+
+    
+    </table> <br><br><br><br>
+    
+    <table>
+        <tr style="padding: 15px;">
+            <td style="padding: 15px;"><lable for="dob"><b>D.O.B</b>:</lable></td>
+            <td style="padding: 15px;"><lable for ="sex"><b>Gender</b>:</lable></td>
+
+        </tr>
+        <tr>
+            <td><input type="date" id="dob" name="dob" required></td>
+            <td>
+                <select name="sex" id="sex" required>
+                <option value="select">Please select</option>
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+                <option value= "transgender">TRANSGENDER</option>
+                </select>
+            </td>
+        </tr>
+        
+
+    
+    </table> 
+    <h1>Address</h1><br>
+    <textarea cols="80" rows="5" placeholder="Address" value="address1"required>  </textarea><br>
+    street address
+    <br>
+    <br>
+    <textarea cols="80" rows="5" placeholder="Address" value="address2"required>  </textarea><br>
+
+    street address line 2<br><br>
+
+    <table>
+        <tr>
+            <td><textarea cols="80" rows="5" placeholder="Address" value="city"required>  </textarea><br></td>
+            <td><textarea cols="80" rows="5" placeholder="Address" value="provice"required>  </textarea><br></td>
+            
+        </tr>
+        <tr>
+            <td>city</td>
+            <td><label>state/province</label></td>
+            
+        
+        </tr>
+
+    
+    </table>
+    
+
+
+
+
+
+    <input type ="submit"value="SUBMIT"><br><br>
+</form>
+
+</table>
+
+</body>
+
+
+</html>
